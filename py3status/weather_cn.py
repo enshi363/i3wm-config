@@ -9,7 +9,6 @@ ch.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger.addHandler(ch)
 ch.setFormatter(formatter)
-http = urllib3.PoolManager()
 
 class Py3status:
 	def __init__(self):
