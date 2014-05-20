@@ -181,7 +181,7 @@ assign [class="Deadbeef"] 5:music
 
 exec ibus-daemon
 
-exec feh --bg-scale /usr/share/wallpapers/arch-linux-wallpaper-anime-hd-cool-7.png
+exec feh --bg-scale ~/.i3/images/wallpaper.jpg 
 exec volumeicon
 
 exec --no-startup-id xfce4-terminal
